@@ -7,7 +7,7 @@ interface GameState {
   isGameOver: boolean;
   currentPlayer: number; 
 }
-
+// Časový limit pro každého hráče
 const ROUND_TIME = 10; 
 
 function App() {
